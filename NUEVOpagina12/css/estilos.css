@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: sans-serif;
+    padding: 90px 20px 0;
+  }
+  
+  .header {
+    background-color: #1d9ee8;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    
+  }
+  .nav {
+    /* display: inline-flex;
+ justify-content: space-between; */
+ display: inline-flex;
+ justify-content: center;
+ align-items: center;
+    max-width: 992px;
+    margin: 0 auto;
+  }
+
+  .nav-link {
+    color: white;
+    text-decoration: none;
+  }
+
+  #logo {
+ width: 50%; 
+  padding-top: 10px; 
+ /* padding-left: 100px; */
+ 
+
+  }
+
+  .nav-menu {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+    padding: 0px;
+  }
+
+  .nav-menu-item {
+    font-size: 18px;
+    margin: 0px;
+    line-height: 80px;
+    /* text-transform: uppercase; */
+    width: max-content;
+  }
+
+
+  .nav-menu-link, #logo:hover {
+    padding: 8px 12px;
+    border-radius: 4px;
+  }
+.nav-menu-link:hover, #logo:hover,
+.nav-menu-link_active {
+  background-color: #31aef6;
+  transition: 0.5s;
+}
+
+.nav-toggle {
+    color: white;
+    background: none;
+    border: none;
+    font-size: 25px;
+    padding: 0 20px 0 200px;
+    line-height: 60px;
+    cursor: pointer;
+  }
+
+
+.hamburguesa{
+    background-color: #ffffff;
+    height: auto;
+    position: fixed;
+    width: 20%;
+    padding: 30px ;
+    top: 0;
+    left: 0;
+    box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.1);
+display: none !important; 
+}
+
+
+.secciones {
+    font-size: 18px;
+    margin: 0px;
+    line-height: 40px;
+    /* text-transform: uppercase; */
+    width: max-content;
+    list-style: none;
+
+
+}
+.sec {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    
+}
+
+.titulos {
+    
+    display: inline-flex;
+    justify-content: space-between;
+    /* justify-content: center;
+    align-items: center; */
+       max-width: 992px;
+       margin: 0 auto;
+}
+
+.tit {
+    
+    color: rgb(0, 0, 0);
+    text-decoration: 5px underline #EF383F;
+    list-style: none;
+    font-size: 18px;
+    /* margin: 0 10px; */
+    /* line-height: 80px; */
+     text-transform: uppercase;
+    width: max-content;
+    padding-bottom: 20px;
+    padding-right: 30px;
+}
+
+ 
